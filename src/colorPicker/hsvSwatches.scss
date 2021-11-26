@@ -1,0 +1,9 @@
+.swatches > .swatch {
+	cursor: pointer;
+	border-radius: 2px;
+	transition: transform .3s;
+}
+.swatches > .swatch.active,
+.swatches > .swatch:hover {
+	transform: scale(1.2);
+}
