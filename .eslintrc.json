@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+      "eqeqeq": "off",
+      "no-mixed-operators": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "default-case": "off",
+      "array-callback-return": "error",
+      "no-unused-vars": "warn",
+      "space-in-parens": ["error", "never"],
+      "spaced-comment": ["error", "always"],
+      "keyword-spacing": ["error", { "after": true, "before": true}],
+      "camelcase": ["error", { "properties": "always" }],
+      "indent": ["warn", "tab", { "SwitchCase": 1 }]
+  }
+}
