@@ -59,7 +59,7 @@ function ColorPicker(props) {
 					<HsvSwatches hsv={hsv} className="v" axis="v" onClick={onChange} />
 				</div>
 			</div>
-			<HsvSwatches hsv={hsv} className="h" axis="h" quantity={24} onClick={onChange} />
+			<HsvSwatches hsv={hsv} className="h" axis="h" quantity={28} onClick={onChange} />
 		</div>
 	);
 }
